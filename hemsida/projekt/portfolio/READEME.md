@@ -43,4 +43,4 @@
     ```
 
 # Inspo
-[!(pictures/inspo.jpg)]
+[!['inspo'](pictures/inspo.jpg "Header")]
