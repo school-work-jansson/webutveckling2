@@ -1,6 +1,7 @@
 :root
 {
     --primary-color: #121211;
+    --primary-color-darker: #1f1f1d;
     /* # */
     /* --primary-color: #202731; */
 
@@ -61,6 +62,13 @@ section {
     flex-wrap: wrap;
 }
 
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .portfolio img {
     height: 400px;
     width: auto;
@@ -69,6 +77,7 @@ section {
 /* SVG css */
 .spacer {
     aspect-ratio: 960/200;
+    /* aspect-ratio: 960/150; */
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,32 +86,21 @@ section {
 }
 
 .spacer-thin {
-    aspect-ratio: 960/50;
+    aspect-ratio: 960/100;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
-.layer-bottom1 {
-    background-image: url('./svg/layer-bottom1.svg');
-}
+.layer-bottom1 {background-image: url('./svg/layer-bottom1.svg');}
+.layer-bottom2 {background-image: url('./svg/layer-bottom2.svg');}
 
-.layer-bottom2 {
-    background-image: url('./svg/layer-bottom2.svg');
-}
+.layer-top1 {background-image: url('./svg/layer-top1.svg');}
+.layer-top2 {background-image: url('./svg/layer-top2.svg');}
 
-.layer-top1 {
-    background-image: url('./svg/layer-top1.svg');
-}
-.layer-top2 {
-    background-image: url('./svg/layer-top2.svg');
-}
-
-.layer-top1-thin {
-    background-image: url('./svg/layer-top1-thin.svg');
-}
+.layer-thin1 {background-image: url('./svg/layer-thin1.svg');}
+.layer-thin2 {background-image: url('./svg/layer-thin2.svg');}
 
 
 /* TYPE WRITING ANIMATION */
