@@ -1,3 +1,7 @@
+# Todo
+- [ ] Fixa en navigation meny på höger sida av skärmen
+- [ ] Fixa någon form av responsivitet på portfolio bilderna (dvs. ngn form av hover)
+
 # Länkar
 - [Flexbox cheat sheet](https://flexboxsheet.com/)
 - [wave generator](https://app.haikei.app/)
