@@ -1,5 +1,6 @@
 # Länkar
 - [Flexbox cheat sheet](https://flexboxsheet.com/)
+- [wave generator](https://app.haikei.app/)
 - [Curvy css :D](https://www.youtube.com/watch?v=lPJVi797Uy0)
 - [Typewriter](https://codepen.io/denic/pen/GRoOxbM)
     - css
