@@ -1,6 +1,7 @@
 # Todo
 - [ ] Fixa en navigation meny på höger sida av skärmen
 - [ ] Fixa någon form av responsivitet på portfolio bilderna (dvs. ngn form av hover)
+- [ ] Fixa en passande font
 
 # Länkar
 - [Flexbox cheat sheet](https://flexboxsheet.com/)
