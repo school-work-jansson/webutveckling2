@@ -43,4 +43,4 @@
     ```
 
 # Inspo
-[![](pictures/inspo.jpg)]
+[!(pictures/inspo.jpg)]
