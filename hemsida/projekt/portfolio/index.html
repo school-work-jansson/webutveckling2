@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="cards.css">
+    <!-- <link rel="stylesheet" href="cards.css"> -->
+
     <title>Portfolio | Linus Jansson</title>
+
+
 </head>
 <body>
     <!-- <div class="loader" id="loader"></div> -->
@@ -30,6 +33,15 @@
                 </p>
             </div>
         </div>
+
+        <div class="bottom">
+            <input type="checkbox" id="btnControl"/>
+            <label class="btn" for="btnControl">
+                <!-- <a href="#portfolio"></a> -->
+                <div class="arrow" onclick="handleArrowClick()"></div>
+            </label>
+        </div>
+        
 
     </section>
 
@@ -98,6 +110,23 @@
              2000);
         }
     </script> -->
+    <script>
+        window.onload = (event) => {
+            document.getElementById("start").scrollIntoView();
+        }
+        
+        //? 
+        function handleArrowClick() {
+            let current = 'start'
+            let arrow = document.getElementsByClassName("arrow")    
+
+            if (current == 'start'){
+                arrow.location.href = '#portfolio';
+            } else {
+                arrow.location.href = '#start';
+            }
+        }
+    </script>
 
 </body>
 </html>
