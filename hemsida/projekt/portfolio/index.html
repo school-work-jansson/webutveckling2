@@ -35,11 +35,11 @@
         </div>
 
         <div class="bottom">
-            <input type="checkbox" id="btnControl"/>
+            <!--input type="checkbox" id="btnControl" onclick="handleArrowClick()"/>
             <label class="btn" for="btnControl">
-                <!-- <a href="#portfolio"></a> -->
-                <div class="arrow" onclick="handleArrowClick()"></div>
-            </label>
+                
+            </label-->
+            <a href="#portfolio"><div class="arrow"></div></a>
         </div>
         
 
@@ -118,9 +118,10 @@
         //? 
         function handleArrowClick() {
             let current = 'start'
-            let arrow = document.getElementsByClassName("arrow")    
+            let arrow = document.getElementById("arrow-link")   
+            console.log(arrow)
 
-            if (current == 'start'){
+            if (arrow.location.href == '#start'){
                 arrow.location.href = '#portfolio';
             } else {
                 arrow.location.href = '#start';
