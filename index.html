@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <!-- <link rel="stylesheet" href="cards.css"> -->
 
     <script
@@ -26,7 +26,7 @@
     <div class="spacer layer-top1"></div>
     <section class="header" id="start">
         
-        <img class="header_img" src="images/placeholder.jpeg" alt="Page logo">
+        <img class="header_img" src="assets/images/placeholder.jpeg" alt="Page logo">
 
         <div class="container">
             <div class="typewriter header-text">
@@ -69,39 +69,68 @@
         </div>
 
         <div class="portfolio">
-            <div>
-                <a href="">
-                    <img src="images/placeholder.jpeg" alt="" srcset="">
+            <div class="image_container">
+                <a href="ovning/" target="_blank">
+                    <img src="assets/images/placeholder.jpeg" alt="Övningssida"/>
+                    <div class="image_overlay">
+                        <p class="overlay_text">Övningssida</p>
+                    </div>
                 </a>
             </div>
-            <div>
-                <a href="">
-                    <img src="images/placeholder.jpeg" alt="" srcset="">
+            <div  class="image_container">
+                <a href="ovning/ovningar/keyframes1/" target="_blank">
+                    <img src="assets/images/placeholder.jpeg" alt="Keyframes 1">
+                    <div class="image_overlay">
+                        <p class="overlay_text">Keyframes 2</p>
+                    </div>
                 </a>
             </div>
-            <div>
-                <a href="">
-                    <img src="images/placeholder.jpeg" alt="" srcset="">
+            <div class="image_container">
+                <a href="ovning/ovningar/keyframes2/" target="_blank">
+                    <img src="assets/images/placeholder.jpeg" alt="keyframes 2">
+                    <div class="image_overlay">
+                        <p class="overlay_text">Keyframes 2</p>
+                    </div>
                 </a>
             </div>
-            <div>
-                <a href="">
-                    <img src="images/placeholder.jpeg" alt="" srcset="">
+            <div class="image_container">
+                <a href="ovning/ovningar/projekt1/" target="_blank">
+                    <img src="assets/images/placeholder.jpeg" alt="Projekt 1">
+                    <div class="image_overlay">
+                        <p class="overlay_text">Projekt 1</p>
+                    </div>
                 </a>
             </div>
-            <div>
-                <a href="">
-                    <img src="images/placeholder.jpeg" alt="" srcset="">
+            <div class="image_container">
+                <a href="ovning/ovningar/repition1/" target="_blank">
+                    <img src="assets/images/placeholder.jpeg" alt="Repition 1">
+                </a>
+                <div class="image_overlay">
+                    <p class="overlay_text">Repition 1</p>
+                </div>
+            </div>
+            <div class="image_container">
+                <a href="ovning/ovningar/repition2/" target="_blank">
+                    <img src="assets/images/placeholder.jpeg" alt="Repition 2">
+                </a>
+                <div class="image_overlay">
+                    <p class="overlay_text">Repition 2</p>
+                </div>
+            </div>
+            <div class="image_container">
+                <a href="ovning/ovningar/responsive1/" target="_blank">
+                    <img src="assets/images/placeholder.jpeg" alt="Responsive 1">
+                    <div class="image_overlay">
+                        <p class="overlay_text">Responsive 1</p>
+                    </div>
                 </a>
             </div>
-            <div>
-                <a href="">
-                    <img src="images/placeholder.jpeg" alt="" srcset="">
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <img src="images/placeholder.jpeg" alt="" srcset="">
+            <div class="image_container">
+                <a href="ovning/ovningar/responsive2/" target="_blank">
+                    <img src="assets/images/placeholder.jpeg" alt="Responsive 2">
+                    <div class="image_overlay">
+                        <p class="overlay_text">Responsive 2</p>
+                    </div>
                 </a>
             </div>
         </div>
@@ -127,6 +156,9 @@
         window.onload = (event) => {
             document.getElementById("start").scrollIntoView();
         }
+        // var canvas = document.getElementById("mycanvas");
+        // var img    = canvas.toDataURL("image/png");
+        // document.write('<img src="'+img+'"/>');
         
         //? 
         function handleArrowClick() {
